@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+*
+{
+    font-family:'Roboto', sans-serif;
+}
+body
+{
+    background-color: #5072A7;
+
+
+    /*position:relative;*/
+}
+
+  .grid {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 360px auto;
+    margin: auto;
+    background:linear-gradient(
+        to right,
+        #B9D9EB 0px,
+        #B9D9EB 360px,
+        #F0F8FF 360px,
+        #F0F8FF 100%
+    );
+  }
+ 
+
+  .grid .photo{
+    padding-left: 20px;
+    width: 60%;
+    height:15%;
+    margin-left: 50px;
+    padding-top: 20px ;
+    border-radius:100% ;
+}
+
+
+.contact p{
+    padding-left: 25px;
+}
+.contact h3{
+    color: #4B9CD3;
+    padding-left: 41px;
+    text-decoration: underline #4B9CD3 3px;
+}
+
+
+
+
+.languages p{
+    padding-left: 25px;
+}
+
+.qualités ul{
+    padding-left: 37px;
+
+}
+
+h1.name {
+    margin-left: 30px ;
+    margin-top: 50px;
+}
+
+.grid_element h3{
+    color: #333;
+    padding-left: 41px;
+    text-decoration: underline #333 3px;
+}
+body p {
+    font-style: normal;
+    font-size: small;
+  
+
+}
+body i {
+font-weight: 600;
+} 
+
+
+.grid_element h3{
+    color: #5072A7;
+    padding-left: 41px;
+    text-decoration: underline #5072A7 3px;
+}
+
+.grid_element h4 .description{
+    color:#333;
+    padding-left: 40px ;
+    padding-top: 90px;
+
+}
+
+.grid_element .stages{
+    padding-top: 50px ;
+}
+
+footer {
+    position: fixed;
+    margin-left: 100px ;
+    bottom: 0;
+    width: 1200px;
+    background-color: #5072A7;
+    color: white;
+    text-align: center;
+ }
+
+
+
